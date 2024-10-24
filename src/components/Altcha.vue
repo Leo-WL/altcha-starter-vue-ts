@@ -50,6 +50,9 @@ onUnmounted(() => {
     ref="altchaWidget"
     style="--altcha-max-width:100%"
     debug
-    test
+    challengeurl="https://ets.gdtspace.com/ets_jobmap/challenge/altcha"
+    hidefooter
+    hidelogo
+    strings="{&quot;label&quot;:&quot;我不是机器人&quot;}"
   ></altcha-widget>
 </template>
